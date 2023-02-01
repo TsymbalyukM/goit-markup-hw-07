@@ -1,0 +1,218 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+
+  /*----------HEADER----------*/
+  .header {
+    padding-bottom: 10px;
+  }
+  .logo {
+    margin-right: 120px;
+  }
+  .logo-studio {
+  }
+  .header-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .header-link {
+  }
+  .header-link.current::after {
+    bottom: -21px;
+  }
+  .contacts-list {
+    display: block;
+  }
+  .contacts-item {
+    /* margin-right: 40px; */
+  }
+  .contacts-link {
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+  }
+  .contacts-item:last-child {
+  }
+
+  .menu-open {
+    display: none;
+  }
+
+  /*----------HERO----------*/
+
+  .hero {
+    width: 768px;
+    height: 436px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/people-office-tab.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/people-office-tab-2x.jpg');
+    }
+  }
+
+  .hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  .hero-btn {
+    margin-top: 40px;
+  }
+  /*-----------Цінності компанії------------*/
+
+  .values {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  /* .values > .container {
+  width: 736px;
+} */
+  .values-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-right: 24px; */
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .values-item {
+    margin-bottom: 0;
+    width: calc((100% - 24px) / 2);
+  }
+  .values-icon-box {
+    display: none;
+  }
+  .values-item-text {
+    width: 356px;
+  }
+
+  /*-----------Що ми робимо--------------*/
+  .actions-title {
+    display: none;
+  }
+  .actions-list {
+    display: none;
+  }
+  /* ---------TEAM-------- */
+
+  .team {
+    padding-bottom: 104px;
+    padding-top: 96px;
+  }
+  .team-list {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+  .team-item {
+    margin-bottom: 0;
+    width: calc((100% - 24px) / 2);
+  }
+
+  /*------------------КЛІЄНТИ------------------*/
+  .customers {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .customers > .container {
+    width: 552px;
+  }
+
+  .customers-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
+  }
+  .customers-link {
+    padding: 16px 32px;
+  }
+  /*------------------FOOTER------------------*/
+  .footer {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .logo-box {
+    padding-left: 108px;
+    margin-right: 24px;
+    padding-right: 0;
+  }
+  .logo-box-footer {
+    text-align: start;
+  }
+  .logo-footer {
+  }
+  .logo-footer-studio {
+  }
+  .footer-text {
+    width: 264px;
+  }
+
+  .footer > .container {
+    display: block;
+  }
+  .logo-container {
+    display: flex;
+    height: 110px;
+    width: 496px;
+  }
+  .footer-box {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: start;
+  }
+  .footer-list {
+    display: flex;
+    gap: 16px;
+    margin-top: 16px;
+  }
+  .footer-item {
+    width: 40px;
+    height: 40px;
+  }
+  .footer-link {
+  }
+
+  .footer-modal {
+    /* margin-left: 79px; */
+    padding-left: 108px;
+  }
+  .modal-title-box {
+    display: block;
+  }
+
+  .input-footer {
+    display: flex;
+  }
+  .modal-title {
+    margin-top: 72px;
+    margin-bottom: 16px;
+    text-align: start;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .input-modal {
+    width: 264px;
+    margin-right: 24px;
+    margin-bottom: 0;
+  }
+  .modal-button {
+  }
+}

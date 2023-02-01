@@ -1,0 +1,202 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  /*----------HEADER----------*/
+  .header {
+    padding-bottom: 28px;
+  }
+  .header-link.current::after {
+    bottom: -32px;
+  }
+  .contacts-list {
+    display: flex;
+  }
+  .contacts-item {
+    margin-right: 40px;
+  }
+  .contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+  /*-------------HERO------------*/
+  .hero {
+    width: 1158px;
+    height: 600px;
+    padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url('../images/people-office.jpg');
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url('../images/people-office-2x.jpg');
+    }
+  }
+  .hero-title {
+    width: 496px;
+    font-size: 56px;
+    line-height: 1.07;
+    justify-content: center;
+  }
+  .hero-btn {
+    margin-top: 48px;
+  }
+  /*------------------Цінності компанії------------------*/
+
+  .values {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .values-list {
+    display: flex;
+    row-gap: 0;
+    column-gap: 0;
+  }
+  .values-item {
+    margin-right: 24px;
+    width: 264px;
+  }
+  .values-item:last-child {
+    margin-right: 0;
+  }
+  .values-icon-box {
+    display: flex;
+    justify-content: center;
+    width: 264px;
+    height: 112px;
+    border-radius: 4px;
+    background-color: var(--light-color);
+    align-items: center;
+  }
+
+  .values-title {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+    margin-bottom: 8px;
+    margin-top: 8px;
+  }
+  .values-item-text {
+    /* text-align: left; */
+    font-weight: 400;
+    width: 264px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
+  }
+
+  /*------------------Що ми робимо------------------*/
+  .actions {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+  .actions-title {
+    display: block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+  }
+  .actions-list {
+    margin-top: 72px;
+    display: flex;
+    gap: 24px;
+  }
+  .actions-item {
+    background-color: var(--accent-color);
+  }
+  /* -----------TEAM---------- */
+  .team {
+    padding-bottom: 120px;
+    padding-top: 120px;
+  }
+  .team > .container {
+    width: 1128px;
+  }
+  .team-item {
+    width: calc((100% - 74px) / 4);
+  }
+
+  /*------------------КЛІЄНТИ------------------*/
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers > .container {
+    width: 1128px;
+  }
+  .customers-list {
+    display: flex;
+    gap: 24px;
+  }
+  .customers-item {
+    width: calc((100% - 120px) / 6);
+  }
+  .customers-link {
+    padding: 16px 32px;
+  }
+  /*------------------FOOTER------------------*/
+  .footer {
+    height: 310px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .logo-box {
+    margin-right: 120px;
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .logo-footer {
+  }
+  .logo-footer-studio {
+  }
+  .footer-text {
+    width: 264px;
+  }
+
+  .footer > .container {
+    display: flex;
+    width: 1128px;
+  }
+  .logo-container {
+    display: flex;
+    height: 110px;
+    width: 592px;
+  }
+  .footer-title {
+    margin-bottom: 16px;
+  }
+  .footer-list {
+    display: flex;
+    gap: 16px;
+  }
+  .footer-item {
+  }
+  .footer-link {
+  }
+  .footer-modal {
+    margin-left: 80px;
+    padding-left: 0;
+  }
+
+  .modal-title {
+    margin-top: 0;
+  }
+  .input-modal {
+  }
+  .modal-button {
+  }
+}

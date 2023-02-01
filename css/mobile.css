@@ -1,0 +1,14 @@
+@media screen and (min-width: 480px) {
+  .container {
+    width: 426px;
+  }
+}
+
+/*-----------Що ми робимо--------------*/
+
+.actions-title {
+  display: none;
+}
+.actions-list {
+  display: none;
+}
