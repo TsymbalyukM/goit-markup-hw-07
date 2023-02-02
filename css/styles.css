@@ -385,7 +385,7 @@ body {
 }
 .values-item-text {
   font-weight: 500;
-  width: 396px;
+  /* width: 396px; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -403,9 +403,6 @@ body {
   padding-bottom: 128px;
   padding-top: 96px;
   justify-content: center;
-}
-.team > .container {
-  width: 428px;
 }
 .team-title {
   font-weight: 700;
