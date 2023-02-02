@@ -288,8 +288,8 @@ body {
 /*----------HERO----------*/
 
 .hero {
-  width: 426px;
-  height: 432px;
+  /* width: 426px;
+  height: 432px; */
   background-color: var(--title-color);
   text-align: center;
   padding: 112px 0;
@@ -358,7 +358,7 @@ body {
 .values-item {
   /* margin-right: 24px; */
   margin-bottom: 72px;
-  width: 396px;
+  /* width: 396px; */
 }
 .values-item:last-child {
   margin-bottom: 0;
@@ -404,6 +404,9 @@ body {
   padding-top: 96px;
   justify-content: center;
 }
+.team > .container {
+  width: 428px;
+}
 .team-title {
   font-weight: 700;
   font-size: 36px;
@@ -417,10 +420,11 @@ body {
 .team-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   /* gap: 24px; */
 }
 .team-item {
-  width: 100%;
+  width: 264px;
   background-color: var(--background-color);
   margin-bottom: 72px;
 }
@@ -484,7 +488,7 @@ body {
   padding-bottom: 96px;
 }
 .customers > .container {
-  width: 396px;
+  /* width: 396px; */
 }
 .customers-title {
   font-weight: 700;
@@ -569,7 +573,7 @@ body {
   color: var(--light-color);
 }
 .footer-text {
-  width: 268px;
+  /* width: 268px; */
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;

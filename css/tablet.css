@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    width: 766px;
+    max-width: 766px;
   }
 
   /*----------HEADER----------*/
@@ -73,6 +73,7 @@
     padding-top: 96px;
     padding-bottom: 96px;
   }
+
   /* .values > .container {
   width: 736px;
 } */
@@ -90,6 +91,9 @@
   .values-icon-box {
     display: none;
   }
+  .values-title {
+    text-align: start;
+  }
   .values-item-text {
     width: 356px;
   }
@@ -106,6 +110,9 @@
   .team {
     padding-bottom: 104px;
     padding-top: 96px;
+  }
+  .team > .container {
+    width: 552px;
   }
   .team-list {
     row-gap: 64px;
