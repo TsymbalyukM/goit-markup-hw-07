@@ -2,13 +2,13 @@
   .container {
     width: 426px;
   }
-}
 
-/*-----------Що ми робимо--------------*/
+  /*-----------Що ми робимо--------------*/
 
-.actions-title {
-  display: none;
-}
-.actions-list {
-  display: none;
+  .actions-title {
+    display: none;
+  }
+  .actions-list {
+    display: none;
+  }
 }
